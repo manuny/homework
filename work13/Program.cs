@@ -1,9 +1,10 @@
 ﻿Console.Write("Число:");
 int n = Convert.ToInt32(Console.ReadLine());
-string t = Convert.ToString(n);
-if (t.Length > 2)
+if (n > 100)
 {
-	Console.Write(" третья цифра " + t [2]);
+	int t = n % 100;
+	int a = t % 10;
+	Console.Write(" третья цифра " + a);
 }
 else
 {
