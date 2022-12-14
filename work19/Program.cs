@@ -6,7 +6,7 @@ while (num!.Length != 5)
   num = Console.ReadLine();
 }
 
-  if (num[0]==num[4] || num[1]==num[3])
+  if (num[0]==num[4] && num[1]==num[3])
   {
     Console.WriteLine($"Ваше число: {num} - палиндром.");
   }
